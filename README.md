@@ -66,3 +66,8 @@ python3 checker.py task1
 ```bash
 python3 checker.py task2
 ```
+
+## Notes
+
+- `task1` implements the unidimensional memory model
+- `task2` implements the bidimensional memory model
