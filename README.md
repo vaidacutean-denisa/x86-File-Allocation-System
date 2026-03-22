@@ -29,25 +29,26 @@ The project is written entirely in **x86 assembly**, emphasizing low-level progr
 
 
 ## Project Structure
-
+```text
 .
 ├── src/
 ├── tests/
 ├── checker.py
 ├── task1
 ├── task2
+```
 
 ## Build and Run
 
 Compile the sources:
-
+```bash
 gcc -m32 src/task1.s -o task1 -no-pie
 gcc -m32 src/task2.s -o task2 -no-pie
-
+```
 Make executables runnable:
-
+```bash
 chmod +x task1 task2
-
+```
 ### Run all tests:
 
 ```bash
